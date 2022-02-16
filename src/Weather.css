@@ -1,0 +1,54 @@
+Global Reset * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 100px;
+}
+.head {
+  background-color: black;
+  height: 60px;
+  color: white;
+  font-size: 24px;
+}
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+  height: 60px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.text {
+  align-self: center;
+}
+.weather-covid-content {
+  margin-top: 60px;
+}
+.body {
+  background-color: #fff1ce;
+}
+td {
+  font-size: 24px;
+}
+.weather-loading {
+  display: "flex";
+  justify-content: "center";
+  align-content: "center";
+
+  margin-top: 400px;
+  margin-left: 950px;
+}

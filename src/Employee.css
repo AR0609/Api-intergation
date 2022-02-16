@@ -1,0 +1,35 @@
+.head {
+  background-color: #c0a080;
+  height: 60px;
+  font-size: 24px;
+}
+.head-text {
+  font-size: 24px;
+  background-color: aquamarine;
+}
+.head-text-one {
+  font-size: 24px;
+}
+.body {
+  background-color: #fff1ce;
+}
+tr:hover {
+  background-color: #c0a080;
+  color: white;
+  align-self: center;
+}
+tr {
+  font-size: 24px;
+  vertical-align: middle;
+}
+th {
+  vertical-align: middle;
+}
+.employee-loading {
+  display: "flex";
+  justify-content: "center";
+  align-content: "center";
+
+  margin-top: 400px;
+  margin-left: 950px;
+}
